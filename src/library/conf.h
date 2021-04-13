@@ -44,6 +44,7 @@ typedef struct conf
 	const char *trust;
 	integrity_t integrity;
 	const char *syslog_format;
+	unsigned int allow_filename_trail_spaces;
 } conf_t;
 
 #endif
